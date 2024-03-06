@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./assets/logo.svg";
 export default function Header() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function Header() {
           position: "absolute",
         }}
       >
-        <iframe src={logo}></iframe>
+        <img src={logo}></img>
       </div>
       <div
         className="Frame1"
